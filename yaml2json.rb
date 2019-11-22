@@ -1,6 +1,6 @@
 require "FileUtils"
 
-class yaml2json < Formula
+class Yaml2json < Formula
   homepage "https://github.com/ssuareza/yaml2json"
 
   $v = "v0.0.1"
