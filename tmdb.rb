@@ -6,7 +6,7 @@ class Tmdb < Formula
   $v = "v0.0.1"
   url "https://github.com/ssuareza/themoviedb-cli/releases/download/#{$v}/tmdb-#{$v}-darwin-amd64"
   version $v
-  sha256 "5582347ddbcd73711fc1226b99053f4916e5985e0805e3cd8ac8e2cc80ba2ffa"
+  sha256 "651600fc6ad74667d7ab8ef865db7f75bd0e64c7f3958286a4919ab9d1bbd584"
 
   def install
     FileUtils.mv("tmdb-#{$v}-darwin-amd64", "tmdb")
