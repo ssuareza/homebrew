@@ -3,10 +3,10 @@ require "FileUtils"
 class Gssh < Formula
   homepage "https://github.com/ssuareza/gssh"
 
-  $v = "v0.0.2"
+  $v = "v0.0.3"
   url "https://github.com/ssuareza/gssh/releases/download/#{$v}/gssh-#{$v}-darwin-amd64"
   version $v
-  sha256 "140cb5d72d9af40881ba6dabd0a79f9c4a5662f6a3f50667b8d66c0f5c8a9341"
+  sha256 "102d20687b546ad53f079481915c2f09edf230750db7035adb11be43ae40eec4"
 
   def install
     FileUtils.mv("gssh-#{$v}-darwin-amd64", "gssh")
