@@ -4,10 +4,12 @@ First of all, [install Homebrew itself.](http://brew.sh/)
 
 Now you can add the tap (this repository) to your system:
 
-    brew tap ssuareza/brew git@github.com:ssuareza/homebrew-brew
+```bash
+brew tap ssuareza/brew git@github.com:ssuareza/homebrew
+```
 
-Afterwards, you can install tools provided by the tap.
+And then you can install the tools provided by the tap. For example, install the current version of `gssh`:
 
-For example, install the current version of `gssh`:
-
-    brew install ssuareza/brew/gssh
+```bash
+brew install ssuareza/brew/gssh
+```

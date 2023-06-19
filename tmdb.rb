@@ -1,7 +1,7 @@
 require "FileUtils"
 
 class Tmdb < Formula
-  homepage "https://github.com/ssuareza/tmdb"
+  homepage "https://github.com/ssuareza/golang/tmdb"
 
   $v = "v0.0.4"
   url "https://github.com/ssuareza/themoviedb-cli/releases/download/#{$v}/tmdb-#{$v}-darwin-amd64"
